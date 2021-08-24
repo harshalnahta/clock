@@ -1,0 +1,101 @@
+*{
+    margin: 0;padding: 0;
+}
+body{
+    background-image: url("https://www.pinclipart.com/picdir/big/43-431258_12-digital-clock-clipart.png");
+    background-repeat: no-repeat;
+    background-position-x: 79ch;
+    background-position-y: 40vh;
+    background-size: 400px;
+    background-color: rgb(248, 187, 73) ;
+   
+}
+.container{
+    display: flex;
+    justify-content: center;
+    border: solid black;
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    text-align: center;
+    background-color: rgb(162, 223, 83);
+
+    
+}
+#hr , #min , #sec {
+    font-size: xx-large;
+    font-family: sans-serif;
+    margin: 5px;
+    background-color: rgb(161, 161, 161);
+    color: black;
+    
+    padding: 2px;
+    border: solid black ;
+    border-radius: 5px;
+}
+#half{
+   margin-top: 10px;
+   font-size: xx-large;
+   font-family: sans-serif;
+    color: black;
+    padding: 2px;
+  
+   
+}
+#name{
+    font-size: x-large;
+    margin-top: 15px;
+    font-weight: 550;
+}
+#func{
+    bottom: 62%;
+    left: 49%;
+    position: absolute;
+}
+.buttons{
+    padding: 4px;
+    width: 70px;
+    background-color: rgb(138, 143, 143);
+    color: black;
+    font-weight: 600;
+    font-size: medium;
+    font-family: sans-serif;
+    border: solid black;
+    border-radius: 10px;
+}
+.buttons:hover{
+    cursor: pointer;
+    color: white;
+}
+#alarm , #Timer{
+    display: none;
+}
+#tim_disp{
+font-size: xx-large;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+position: relative;
+
+
+}
+#reload{
+    padding: 4px;
+    width: 70px;
+    background-color: rgb(243, 240, 47);
+    color: black;
+    font-weight: 500;
+    font-size: medium;
+    font-family: sans-serif;
+    border: solid black;
+    border-radius: 10px;
+}
+#reload:hover{
+    cursor: pointer;
+    color: rgb(221, 29, 29);
+}
+.inst{
+    color: black;
+    font-size: large;
+    font-weight: 700;
+    margin-top: 80px;
+    margin-left: 40px;
+}

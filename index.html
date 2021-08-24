@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>clock</title>
+    <link rel="stylesheet" href="clocksty.css">
+</head>
+<body>
+  <h1 style="color: rgb(0, 0, 0); border: solid black; text-align: center;">Digital Clock</h1><br>
+  <button id="reload" onclick="refresh()">Reset</button>
+  <div class="inst">
+    <h2>Instructions :</h2><br>
+    <ul type="bullets"><li><h3>Alarm :</h3></li>
+      <ol><li>to set alarm click on alarm button </li>
+      <li>then select time from clock will be displayed on clicking on alarm</li>
+      <li>then click on set button once</li></ol><br>
+      <li><h3>Timer :</h3></li>
+      <ol><li>to set timer (in sec) click on timer button</li>
+          <li>then set the time in seconds in displayed area</li>
+          <li>then click on set button twice</li>
+      </ol>
+    </ul></div>
+    <div class="container" id="clock">
+        <span id="name">Clock</span>
+        <section id="hr">hr</section><h1>:</h1>
+        <section id="min">min</section><h1>:</h1>
+        <section id="sec">sec</section>
+        <section id="half">am/pm</section>
+       
+    </div>
+    <div id="func"><div id="tim_disp"></div>
+      <button class="buttons" onclick="b1()"ondblclick="bclose()">Alarm</button>
+        <button class="buttons" onclick="b2()" ondblclick="bclose()">Timer</button>
+    <input type="time" placeholder="12:00 AM" name="alarm" id="alarm">
+     <input type="number" name="Timer" id="Timer">
+     <button class="buttons" onclick="b3()" ondblclick="b31()" style="display: none;" id="set">Set </button>
+</div>
+
+    
+
+
+
+
+
+    <script src="clockjs.js"></script>
+      
+        
+
+</body>
+</html>
